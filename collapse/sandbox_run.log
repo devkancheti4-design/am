@@ -1,0 +1,2 @@
+done: 10 seeds x 6 generations x 4 arms in 527 s
+python3 sandbox.py 10 6  5043.19s user 32.72s system 961% cpu 8:48.09 total

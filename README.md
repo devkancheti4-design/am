@@ -53,6 +53,9 @@ authored from a design battery of 608 and 700 problems respectively, never from 
 ## Results (sealed batteries, `results/`)
 
 Claude (Opus 5.5) answered first, by reasoning only, and the answers were hashed before any other arm was read.
+The raw files are in `results/batteries/rules/` and `results/batteries/multibranch/`: the generator (rules drawn from
+`os.urandom`), the problem texts, the sealed answers, Claude's committed answers with their SHA-256
+(`shasum -a 256 -c claude_answers.sha256`), and every other arm's answers.
 
 | battery | Claude | AM | AM + splitter | Qwen3-8B alone |
 |---|---|---|---|---|
@@ -63,3 +66,60 @@ Limits:
 - Each battery is 38 problems from one generator.
 - The eyes see the same step family the generator draws from.
 - Claude answered without tools.
+
+## Model collapse sandbox (`collapse/`)
+
+This tests the use AM is made for: a maintainer that keeps machine-trained machines true to one reference example.
+
+The setup:
+- **World:** 64 hidden integer laws on x = 0..255, giving 16,384 exact points.
+- **Learner:** a small MLP. Each generation trains a fresh model on 25% of each law's inputs, labelled by the
+  previous generation. This is the recursive regime in which model collapse is known to happen.
+- **Arms:**
+  - *unverified* takes the model's labels as they come;
+  - *accumulate* keeps all earlier training data, including the real data from generation 0;
+  - *AM blind* gets no reference and extracts rules from the model's own labels;
+  - *AM shown the example* gets 8 exact points per law (3% of the table), fixed before generation 0. AM extracts each
+    law's rule from them and relabels every point, or answers `CANNOT` and the law's points are dropped;
+  - *proven* uses exact labels.
+
+The scale is 10 seeds × 6 generations, with mean ± 95% CI. Accuracy is measured over all 16,384 points, from
+generation 0 to generation 6:
+
+| arm | accuracy | rarest outputs (tails) | wrong training labels |
+|---|---|---|---|
+| unverified | 69.7 → **49.9** | 84.0 → 54.6 | 30.3% → 48.9% |
+| accumulate | 69.8 → 66.2 | 84.1 → 83.7 | 30.3% → 33.8% |
+| AM blind | 69.5 → 55.0 | 83.9 → 67.4 | 4.0% → 38.4% |
+| **AM shown the example** | **69.7 → 69.3** ± 1.4 | **84.0 → 83.5** | **0.7% → 0.6%** |
+| proven | 69.8 → 69.8 | 84.4 → 84.0 | 0% |
+
+The decision rules were written in `collapse/analyse.py` before the results were read:
+
+| hypothesis | result |
+|---|---|
+| H1: unverified collapses (falls > 5 points) | confirmed |
+| H2: proven stays stable (within 2 points) | confirmed |
+| H3: AM blind ends within 2 points of proven | **not confirmed** |
+| H4: tails are lost first | confirmed (tails −35%, overall −28%) |
+| H5: AM shown the example ends within 2 points of proven | **confirmed** |
+
+H5 was added after H1–H4 were read, and before its run.
+
+So AM needs the reference example. Shown 8 exact points per law, its labels stay 99.4% right in every generation,
+so errors never compound. Run blind on a model's own labels, it slowly learns the model's mistakes.
+
+Limits:
+- The learner is a small MLP, not a language model.
+- Every law lies within the eyes' field of view. A law AM cannot see is dropped (`CANNOT`), not repaired.
+
+To run it (numpy and torch; about 10 minutes on 10 cores):
+
+```bash
+cd collapse
+python3 sandbox.py 10 6
+python3 sandbox.py 10 6 am_anchor
+python3 analyse.py
+```
+
+The raw results are `sandbox_results*.json`; the printed analysis is `verdict.txt`.

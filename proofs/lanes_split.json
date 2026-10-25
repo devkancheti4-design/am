@@ -1,0 +1,558 @@
+{
+ "tag": "s",
+ "order": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "_terms": [
+  [
+   1,
+   [
+    "GFN_1_2",
+    "GFC_0_8_c",
+    null,
+    null,
+    "GFS_0_200_300"
+   ]
+  ],
+  [
+   1,
+   [
+    "GFN_1_2_3",
+    "GFC_0_4_c",
+    null,
+    null,
+    "GFS_0_100_300"
+   ]
+  ],
+  [
+   1,
+   [
+    "GFN_1_2_3",
+    "GFC_0_4_8",
+    "GFP_0_10_30",
+    null,
+    null
+   ]
+  ],
+  [
+   2,
+   [
+    null,
+    "GFC_4",
+    null,
+    null,
+    "GFS_0_200_300"
+   ]
+  ],
+  [
+   2,
+   [
+    null,
+    "GFC_4_8",
+    "GFP_0_10_30",
+    null,
+    "GFS_0_300"
+   ]
+  ],
+  [
+   2,
+   [
+    null,
+    "GFC_4_8_c",
+    "GFP_0_10",
+    null,
+    "GFS_0"
+   ]
+  ],
+  [
+   2,
+   [
+    "GFN_0_1_3",
+    "GFC_4_8_c",
+    "GFP_10_20",
+    null,
+    "GFS_100_200_300"
+   ]
+  ],
+  [
+   2,
+   [
+    null,
+    "GFC_8",
+    "GFP_0_10_30",
+    "GFM_40_80_c0",
+    "GFS_0_100_300"
+   ]
+  ],
+  [
+   2,
+   [
+    null,
+    "GFC_4_c",
+    "GFP_0_10_20",
+    "GFM_40_c0",
+    null
+   ]
+  ],
+  [
+   3,
+   [
+    "GFN_0_1",
+    null,
+    "GFP_10_20",
+    null,
+    null
+   ]
+  ],
+  [
+   3,
+   [
+    "GFN_0_1",
+    "GFC_0_8",
+    "GFP_10_20_30",
+    null,
+    "GFS_0_100_300"
+   ]
+  ],
+  [
+   4,
+   [
+    null,
+    "GFC_0",
+    null,
+    "GFM_40_80_c0",
+    null
+   ]
+  ],
+  [
+   5,
+   [
+    null,
+    null,
+    null,
+    null,
+    "GFS_100_200_300"
+   ]
+  ]
+ ],
+ "shared": {
+  "EMIT": {
+   "expr": "(x & (-x))",
+   "minimal": true,
+   "ops": 2,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 7,
+   "rows": 64,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "I_HI": {
+   "expr": "((1 + ((x - 1) >> 31)) - ((x + (x >> 31)) >> 31))",
+   "minimal": false,
+   "ops": 7,
+   "ladder": 3,
+   "secs": 0.01,
+   "evals": 1053,
+   "rows": 29,
+   "intent": "mask",
+   "wall": 0.016
+  },
+  "ACT_OF": {
+   "expr": "((x & (1 - x)) ^ (x & (1 | (x >> 1))))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 3,
+   "secs": 0.014,
+   "evals": 4820,
+   "rows": 7,
+   "intent": "any",
+   "wall": 0.023
+  },
+  "_order": [
+   "I_HI",
+   "EMIT",
+   "ACT_OF"
+  ]
+ },
+ "law": {
+  "GFN_0_1_3": {
+   "expr": "((x & 1) - ((x - 1) >> 31))",
+   "minimal": false,
+   "ops": 4,
+   "ladder": 1,
+   "secs": 0.0,
+   "evals": 19,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFC_4": {
+   "expr": "((2 & (x >> 2)) ^ (2 & ((-x) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.0,
+   "evals": 107,
+   "rows": 4,
+   "intent": "mix",
+   "wall": 0.001
+  },
+  "GFS_0": {
+   "expr": "(16 ^ (16 & ((-x) >> 31)))",
+   "minimal": false,
+   "ops": 4,
+   "ladder": 2,
+   "secs": 0.0,
+   "evals": 95,
+   "rows": 4,
+   "intent": "mix",
+   "wall": 0.001
+  },
+  "GFC_4_8_c": {
+   "expr": "((x - ((-x) >> 31)) - (x + ((-x) >> 31)))",
+   "minimal": false,
+   "ops": 7,
+   "ladder": 2,
+   "secs": 0.0,
+   "evals": 69,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFN_0_1": {
+   "expr": "(1 - (x >> 1))",
+   "minimal": false,
+   "ops": 2,
+   "ladder": 1,
+   "secs": 0.0,
+   "evals": 10,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFP_0_10_30": {
+   "expr": "((4 & (x >> 2)) + (4 & ((x - 1) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 191,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFP_0_10": {
+   "expr": "(4 - (4 & (x >> 3)))",
+   "minimal": false,
+   "ops": 3,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 187,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFN_1_2_3": {
+   "expr": "((x - x) - ((-x) >> 31))",
+   "minimal": false,
+   "ops": 4,
+   "ladder": 1,
+   "secs": 0.001,
+   "evals": 18,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFC_0_8_c": {
+   "expr": "((2 & (x >> 2)) + (2 & ((x - 1) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 170,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFS_100_200_300": {
+   "expr": "(16 & ((-x) >> 31))",
+   "minimal": true,
+   "ops": 3,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 189,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFC_4_c": {
+   "expr": "(2 & (x >> 1))",
+   "minimal": true,
+   "ops": 2,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 164,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFS_0_200_300": {
+   "expr": "((16 & (x >> 5)) + (16 & ((x - 1) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 191,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFC_0": {
+   "expr": "(2 ^ (2 & ((-x) >> 31)))",
+   "minimal": false,
+   "ops": 4,
+   "ladder": 2,
+   "secs": 0.0,
+   "evals": 85,
+   "rows": 4,
+   "intent": "mix",
+   "wall": 0.001
+  },
+  "GFM_40_80_c0": {
+   "expr": "(8 & ((-x) >> 31))",
+   "minimal": true,
+   "ops": 3,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 189,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFM_40_c0": {
+   "expr": "(8 & (x >> 3))",
+   "minimal": true,
+   "ops": 2,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 185,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFC_0_4_c": {
+   "expr": "((2 & (x >> 1)) + (2 & ((x - 1) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 170,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.002
+  },
+  "GFS_0_100_300": {
+   "expr": "((16 & (x >> 4)) + (16 & ((x - 1) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 191,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.002
+  },
+  "GFP_10_20_30": {
+   "expr": "(4 & ((-x) >> 31))",
+   "minimal": true,
+   "ops": 3,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 189,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.002
+  },
+  "GFC_8": {
+   "expr": "((2 & (x >> 1)) ^ (2 & ((-x) >> 31)))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 110,
+   "rows": 4,
+   "intent": "mix",
+   "wall": 0.001
+  },
+  "GFN_1_2": {
+   "expr": "((x - (x >> 1)) - (x & (x + x)))",
+   "minimal": false,
+   "ops": 5,
+   "ladder": 2,
+   "secs": 0.0,
+   "evals": 68,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.001
+  },
+  "GFC_0_8": {
+   "expr": "(2 - (2 & (x >> 1)))",
+   "minimal": false,
+   "ops": 3,
+   "ladder": 2,
+   "secs": 0.001,
+   "evals": 165,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.002
+  },
+  "R_M5": {
+   "expr": "(32 & (x + 1))",
+   "minimal": true,
+   "ops": 2,
+   "ladder": 2,
+   "secs": 0.004,
+   "evals": 419,
+   "rows": 32,
+   "intent": "mask",
+   "wall": 0.006
+  },
+  "GFC_4_8": {
+   "expr": "((x | (x >> 1)) - (x + (2 & (x >> 2))))",
+   "minimal": false,
+   "ops": 6,
+   "ladder": 3,
+   "secs": 0.001,
+   "evals": 604,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.006
+  },
+  "R_M1": {
+   "expr": "(((x + 1) >> 5) + ((x + 1) >> 5))",
+   "minimal": false,
+   "ops": 5,
+   "ladder": 2,
+   "secs": 0.005,
+   "evals": 627,
+   "rows": 32,
+   "intent": "mask",
+   "wall": 0.007
+  },
+  "GFS_0_300": {
+   "expr": "(16 - (16 & (x - (x >> 5))))",
+   "minimal": false,
+   "ops": 4,
+   "ladder": 3,
+   "secs": 0.003,
+   "evals": 1381,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.007
+  },
+  "GFC_0_4_8": {
+   "expr": "((2 & ((x - 1) >> 31)) + (2 & (x - (x >> 2))))",
+   "minimal": false,
+   "ops": 7,
+   "ladder": 3,
+   "secs": 0.003,
+   "evals": 1093,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.008
+  },
+  "GFP_0_10_20": {
+   "expr": "((4 & ((x - 1) >> 31)) + (4 & (x - (x >> 3))))",
+   "minimal": false,
+   "ops": 7,
+   "ladder": 3,
+   "secs": 0.003,
+   "evals": 1332,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.009
+  },
+  "GFP_10_20": {
+   "expr": "(4 & (x - (x >> 3)))",
+   "minimal": true,
+   "ops": 3,
+   "ladder": 3,
+   "secs": 0.005,
+   "evals": 1331,
+   "rows": 4,
+   "intent": "mask",
+   "wall": 0.014
+  },
+  "R_M4": {
+   "expr": "((x & 16) - (x & (16 & (x + 1))))",
+   "minimal": false,
+   "ops": 5,
+   "ladder": 3,
+   "secs": 0.017,
+   "evals": 2221,
+   "rows": 32,
+   "intent": "mask",
+   "wall": 0.058
+  },
+  "R_M2": {
+   "expr": "((1 | ((x + 1) >> 4)) + (1 | ((x - 31) >> 5)))",
+   "minimal": false,
+   "ops": 7,
+   "ladder": 3,
+   "secs": 0.033,
+   "evals": 4264,
+   "rows": 32,
+   "intent": "mask",
+   "wall": 0.074
+  },
+  "R_M3": {
+   "expr": "(8 - (8 & ((x - 31) >> 5)))",
+   "minimal": false,
+   "ops": 4,
+   "ladder": 3,
+   "secs": 0.042,
+   "evals": 5518,
+   "rows": 32,
+   "intent": "mask",
+   "wall": 0.084
+  },
+  "_order": [
+   "GFN_1_2",
+   "GFC_0_8_c",
+   "GFS_0_200_300",
+   "GFN_1_2_3",
+   "GFC_0_4_c",
+   "GFS_0_100_300",
+   "GFC_0_4_8",
+   "GFP_0_10_30",
+   "GFC_4",
+   "GFC_4_8",
+   "GFS_0_300",
+   "GFC_4_8_c",
+   "GFP_0_10",
+   "GFS_0",
+   "GFN_0_1_3",
+   "GFP_10_20",
+   "GFS_100_200_300",
+   "GFC_8",
+   "GFM_40_80_c0",
+   "GFC_4_c",
+   "GFP_0_10_20",
+   "GFM_40_c0",
+   "GFN_0_1",
+   "GFC_0_8",
+   "GFP_10_20_30",
+   "GFC_0",
+   "R_M1",
+   "R_M2",
+   "R_M3",
+   "R_M4",
+   "R_M5"
+  ]
+ }
+}

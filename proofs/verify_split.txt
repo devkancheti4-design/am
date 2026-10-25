@@ -1,0 +1,15 @@
+1. ENGINE
+    engine/a.py 2663da88a56e3e0dc2c68e6b58a64707  ok
+    engine/b.py 980e69940d76fde98e7be7f43452dbf1  ok
+    engine/c.py fe109444585a94b2dfcf89a94b7b533a  ok
+
+2. LANES
+  lanes of the cut 34, lanes authored 34, same set: True
+  exact on every row, verbatim in am_split.c: 34 of 34
+
+3. AGAIN -- fresh searches, this machine
+  GFN_0_1_3    recorded ((x & 1) - ((x - 1) >> 31))                  now ((x & 1) - ((x - 1) >> 31))                  identical
+  GFC_4_8      recorded ((x | (x >> 1)) - (x + (2 & (x >> 2))))      now ((x | (x >> 1)) - (x + (2 & (x >> 2))))      identical
+  GFS_0        recorded (16 ^ (16 & ((-x) >> 31)))                   now (16 ^ (16 & ((-x) >> 31)))                   identical
+
+PROOF HOLDS

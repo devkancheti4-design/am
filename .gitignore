@@ -1,0 +1,6 @@
+lib/
+proofs/prove_am
+proofs/prove_split
+__pycache__/
+*.pyc
+.DS_Store

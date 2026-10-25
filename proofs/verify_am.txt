@@ -1,0 +1,15 @@
+1. ENGINE
+    engine/a.py 2663da88a56e3e0dc2c68e6b58a64707  ok
+    engine/b.py 980e69940d76fde98e7be7f43452dbf1  ok
+    engine/c.py fe109444585a94b2dfcf89a94b7b533a  ok
+
+2. LANES
+  lanes of the cut 18, lanes authored 18, same set: True
+  exact on every row, verbatim in am.c: 18 of 18
+
+3. AGAIN -- fresh searches, this machine
+  GSA_2_4_a_c_e recorded ((x & ((x + 2) >> 3)) + (2 & (x + (x >> 1)))) now ((x & ((x + 2) >> 3)) + (2 & (x + (x >> 1)))) identical
+  GKIND_1      recorded x                                            now x                                            identical
+  GSC_80_100_180_280_300_380 recorded (8 - (8 & (x - (8 | (x >> 6)))))             now (8 - (8 & (x - (8 | (x >> 6)))))             identical
+
+PROOF HOLDS

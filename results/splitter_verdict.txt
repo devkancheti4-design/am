@@ -1,0 +1,46 @@
+MULTI-BRANCH SEALED BATTERY: 38 items (31 real, 7 traps)
+
+contestant                           right   traps  false CANNOT  wrong
+Claude (reasoning only)              33/38    7/7             0      5
+AM alone                             16/38    7/7            20      2
+AM + SPLITTER      32/38    7/7             1      5
+
+per item (C Claude, A AM alone, S AM+splitter; + right) and the split the splitter chose:
+  T01  C+ A+ S+  split=CANNOT  seal CANNOT
+  T02  C. A. S.  split=mod3    seal [1, 7]
+  T03  C+ A. S.  split=CANNOT  seal [24, 361]
+  T04  C+ A. S+  split=cut     seal [208, 64]
+  T05  C+ A. S+  split=parity  seal [25, 22]
+  T06  C+ A+ S+  split=CANNOT  seal CANNOT
+  T07  C+ A+ S+  split=CANNOT  seal CANNOT
+  T08  C+ A+ S+  split=none    seal [27, 8]
+  T09  C+ A+ S+  split=CANNOT  seal CANNOT
+  T10  C+ A+ S+  split=sign    seal [45, 963]
+  T11  C+ A. S+  split=parity  seal [16, 10000]
+  T12  C+ A. S+  split=mod3    seal [12, 75]
+  T13  C+ A+ S+  split=CANNOT  seal CANNOT
+  T14  C+ A. S+  split=cut     seal [5, 326592]
+  T15  C+ A. S+  split=parity  seal [1010, -10]
+  T16  C. A. S.  split=mod3    seal [2, 0]
+  T17  C+ A. S+  split=parity  seal [-330, 30]
+  T18  C+ A+ S+  split=none    seal [112, 40]
+  T19  C+ A+ S+  split=sign    seal [108, 486]
+  T20  C+ A. S+  split=cut     seal [83, 80]
+  T21  C+ A. S+  split=parity  seal [74, 85]
+  T22  C+ A+ S+  split=CANNOT  seal CANNOT
+  T23  C+ A+ S+  split=none    seal [1, -28]
+  T24  C+ A+ S+  split=CANNOT  seal CANNOT
+  T25  C+ A+ S.  split=cut     seal [5, 14]
+  T26  C. A. S.  split=sign    seal [24, 40]
+  T27  C+ A+ S+  split=none    seal [0, 2]
+  T28  C. A. S+  split=sign    seal [369, -15]
+  T29  C+ A. S+  split=mod3    seal [224, 4608]
+  T30  C+ A. S+  split=parity  seal [6, 20736]
+  T31  C+ A. S+  split=cut     seal [81, 1024]
+  T32  C+ A. S+  split=sign    seal [28, 20]
+  T33  C+ A. S+  split=parity  seal [135, 945]
+  T34  C+ A. S+  split=mod3    seal [749, 707]
+  T35  C. A. S.  split=sign    seal [-3, 567]
+  T36  C+ A+ S+  split=sign    seal [1, 16]
+  T37  C+ A+ S+  split=none    seal [96, 35]
+  T38  C+ A. S+  split=parity  seal [43, 113]

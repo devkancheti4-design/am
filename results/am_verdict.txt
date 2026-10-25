@@ -1,0 +1,49 @@
+THE SEALED BATTERY: 38 items (32 real rules, 6 traps)
+
+contestant                  right      traps  false CANNOT   wrong no answer
+Claude                      32/38       6/6             0       6         0
+body alone (Qwen3-8B)        7/38       2/6            11       0        16
+live synthesis, whole rule     20/38       6/6             8      10         0
+live synthesis, lane law       23/38       6/6             2      13         0
+live synthesis (headline)      23/38       6/6             2      13         0
+AM    31/38       6/6             6       1         0
+
+per item (C Claude, Q body alone, W live whole, L live lanes, H live headline, R reason_brain; + right):
+  R01  C+ Q. W+ L+ H+ R+   seal [-165, -209]
+  R02  C+ Q. W. L+ H+ R+   seal [43, 41]
+  R03  C+ Q. W. L. H. R+   seal [-10, 6]
+  R04  C+ Q. W. L. H. R+   seal [0, 2]
+  R05  C+ Q. W+ L+ H+ R+   seal [87, 348]
+  R06  C. Q. W. L+ H+ R+   seal [7, 51]
+  R07  C+ Q. W+ L+ H+ R+   seal [39, 47]
+  R08  C+ Q. W+ L+ H+ R.   seal [508, 580]
+  R09  C+ Q. W. L. H. R+   seal [-4482, 12238]
+  R10  C+ Q. W. L. H. R+   seal [1840, 1856]
+  R11  C+ Q. W+ L+ H+ R+   seal CANNOT
+  R12  C. Q. W. L. H. R.   seal [2, 1]
+  R13  C+ Q+ W. L. H. R+   seal [-28, -56]
+  R14  C. Q. W+ L+ H+ R.   seal [5, 6]
+  R15  C+ Q. W. L. H. R+   seal [2, 0]
+  R16  C+ Q. W+ L+ H+ R+   seal CANNOT
+  R17  C. Q. W. L. H. R+   seal [0, 5]
+  R18  C. Q. W. L. H. R.   seal [13, 18]
+  R19  C+ Q+ W+ L+ H+ R+   seal CANNOT
+  R20  C+ Q+ W+ L+ H+ R+   seal CANNOT
+  R21  C. Q. W. L. H. R.   seal [32, 8]
+  R22  C+ Q. W+ L+ H+ R+   seal CANNOT
+  R23  C+ Q. W. L. H. R+   seal [21, 49]
+  R24  C+ Q+ W+ L+ H+ R.   seal [-610, -857]
+  R25  C+ Q+ W+ L+ H+ R+   seal [888, 944]
+  R26  C+ Q. W. L. H. R+   seal [-28, 132]
+  R27  C+ Q. W. L+ H+ R+   seal [8, 0]
+  R28  C+ Q. W. L. H. R+   seal [2, 4]
+  R29  C+ Q+ W+ L+ H+ R+   seal [123, 153]
+  R30  C+ Q. W+ L+ H+ R+   seal [145, 185]
+  R31  C+ Q. W+ L+ H+ R+   seal [23, 36]
+  R32  C+ Q+ W+ L+ H+ R+   seal [513, 2052]
+  R33  C+ Q. W+ L+ H+ R+   seal [-82, -101]
+  R34  C+ Q. W+ L+ H+ R+   seal [7571, 10002]
+  R35  C+ Q. W+ L+ H+ R+   seal CANNOT
+  R36  C+ Q. W. L. H. R.   seal [52, 5]
+  R37  C+ Q. W+ L+ H+ R+   seal [-129, -153]
+  R38  C+ Q. W. L. H. R+   seal [48, -85]

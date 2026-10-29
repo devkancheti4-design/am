@@ -1,0 +1,8 @@
+git init -b main && git add . && git commit -m "Initial commit"
+gh repo create kalvium-assignment1 --public --source=. --push
+git checkout -b feature
+echo 'console.log("Hello Kalvium");' >> script.js
+git add . && git commit -m "Add script" && git push -u origin feature
+gh pr create --base main --title "Add script" --body "First pull request"
+gh pr merge --merge --delete-branch
+git checkout main && git pull

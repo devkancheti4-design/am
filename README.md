@@ -1,5 +1,21 @@
 # AM
 
+**AM is a self-improving harness that makes any AI model check and fix its own answers before they ship, and on
+rule-finding tasks it answers 50x cheaper than the model alone.**
+
+## Where it helps
+
+- **AI coding assistants that ship broken code.**
+  - When a model's answer fails its own visible tests, the harness sends the failing tests back for a fix instead of shipping it.
+  - LiveCodeBench v6: +8 contest problems solved and none lost, at about $0.20 per extra solve ([results/coding](results/coding/)).
+- **The bill for AI code generation.**
+  - It asks for a cheap answer first, and pays for more thinking only when the answer is cut off.
+  - HumanEval+: 161 vs 162 solved, with 64% fewer output tokens ([results/coding](results/coding/)).
+- **Rule-finding questions** (number patterns and hidden integer rules, as in aptitude tests and math practice).
+  - The model only lays out the data, and AM finds the rule.
+  - On 60 sealed problems with three Gemini models it was 53–122x cheaper per problem than the model reasoning alone, at a similar score (41 vs 35–36; the difference is not significant).
+  - Two caveats: AM's own CPU time (about 25 s per problem, in Python) is not in those dollars, and it gave more wrong answers (8 vs 1–5).
+
 **AM** is a core reasoner: given integer examples, it finds the rule behind them and answers new questions, or says
 `CANNOT` when no rule can be determined.  **AM SPLITTER** prepares the problem for it: it decides how to cut the
 examples into pieces (by a cut point, parity, residue mod 3, or sign) so AM can solve each piece.

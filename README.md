@@ -50,6 +50,20 @@ authored from a design battery of 608 and 700 problems respectively, never from 
   - every lane is exact on its rows and appears verbatim in the C;
   - lanes re-synthesised from scratch on a second machine came out identical.
 
+## Coding: AM as a self-improving harness (`results/coding/`)
+
+Around an API model, AM and its machine-authored law work as a self-improving harness. The model writes the code. The
+law reads only the situation (does the answer pass the samples, do the answers agree, is it valid, was it cut off) and
+rules the next act: ship, show the failing samples back, ask for complete code, or raise the thinking budget.
+
+| Set (live, sealed, judged on hidden tests) | Model alone | With the harness |
+|---|---|---|
+| HumanEval+, 164 tasks | 162 | 161, at **−64% output tokens** |
+| LiveCodeBench v6, 174 problems | 132 | **140 (+8, 0 lost)** |
+| LiveCodeBench v6, amdev (AM reasons, law steers) | 132 | **139 (8 won, 1 lost)** |
+
+Details, per-task results and the limits are in `results/coding/README.md`.
+
 ## Results (sealed batteries, `results/`)
 
 Claude (Opus 5.5) answered first, by reasoning only, and the answers were hashed before any other arm was read.

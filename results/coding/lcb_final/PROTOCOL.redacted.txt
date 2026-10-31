@@ -1,0 +1,48 @@
+REDACTED COPY: engine names replaced. The sealed sha256 belongs to the unredacted original, which is kept private.
+
+THE FINAL LIVE RUN: LIVECODEBENCH, AM AS THE CORE REASONER, THE LAW OVER MCP, GEMINI AS THE BODY.
+Protocol written and hashed before any call it covers (2026-10-30).
+
+WHY
+The user: "am as core reasoner remember we have this is the last chance", "measure mcp for gemini high vs gemini high
+alone that gives us right price", and a live recording to present. The earlier LiveCodeBench runs were stopped by the
+project's monthly spend cap (₹2,500; the user raised it); they are kept and reported separately. This run does all
+175 problems of release_v6 (test6.jsonl, sha256 bb4c364f71921c44...) from scratch.
+
+CALLS (gemini-3.5-flash-lite; the same LiveCodeBench-style prompt for every arm)
+For every problem: L1 at thinking "low" (8,000 tokens) and H1 at "high" (32,000), started together. An identical
+request (same text, same level) is made once and shared by every arm that makes it; retries are the only other calls.
+
+ARMS
+- GEMINI ALONE: H1, submitted as is.
+- CONTROL: L1, submitted as is.
+- MY MODEL: the law (brain_mcp_v2.py over MCP; ENGINE_LAW unmodified; observe_program on the VISIBLE samples only),
+  low-first: at most 2 low replies, then CAPPED and the law raises the body to high, at most 2 high replies.
+- BRAIN-HIGH: the same law, high-first: at most 3 high replies. Against GEMINI ALONE this is the brain's price at fixed
+  thinking.
+- AM, THE CORE REASONER: decides the final answer among every candidate the models produced for the problem. A plain
+  rule in AM's style, fixed now (AM's machine-authored law covers integer rules, not code): eligible = passes every
+  visible sample; eligible candidates are grouped by their outputs on 9 inputs AM derives by perturbing the samples'
+  integers (structure kept, outputs never known); the largest group wins (agreement between the models stacks,
+  disagreement cancels); ties go to the group with more high-thinking answers, then the earliest; none eligible ->
+  CANNOT.
+
+JUDGE
+Every hidden test (LiveCodeBench pass@1), sandboxed: AtCoder one process per test, 6 s; LeetCode 6 s per call.
+
+COST AND PRICE
+Each arm's tokens and dollars are the calls it used (a shared call counts for each arm that used it: the arm's
+stand-alone price). The run's real cost is the unique calls. AM's cost is all of the problem's calls. The price of
+the brain: extra dollars per problem, extra problems solved per 100, and dollars per extra problem solved, for
+BRAIN-HIGH, MY MODEL and AM against GEMINI ALONE. Exact two-sided sign tests on PASS against GEMINI ALONE.
+
+SAFETY AND MONEY
+Every candidate's code is saved (live/final_code). A reserved cost is released whether a call works or not. A refusal
+by Google's spend cap stops the run cleanly; it is resumable. Script cap $9.00 of real spend.
+
+LIVE RECORDING
+live/final_events.jsonl, live/final_summary.json, dashboard live/final.html; a replay page afterwards.
+
+MY PREDICTION
+BRAIN-HIGH passes at least 3 more than GEMINI ALONE; AM at least 3 more; MY MODEL within 8 of GEMINI ALONE with at
+least 40% fewer output tokens.

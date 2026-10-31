@@ -1,0 +1,51 @@
+{
+ "updated": "19:22:03",
+ "problems": 174,
+ "done": 173,
+ "errors": 1,
+ "new_spend": 7.3027,
+ "cap": 8.0,
+ "acts": {
+  "SHIP": 155,
+  "ADD_STATE": 113,
+  "HARVEST_COUNTEREXAMPLE": 48,
+  "RESHAPE": 1,
+  "RAISE_BUDGET": 4
+ },
+ "shipped": 155,
+ "budget_stops": 18,
+ "cannot": 8,
+ "answer_differs_from_alone": 20,
+ "new_calls": 148,
+ "judged": {
+  "n": 173,
+  "amdev": 139,
+  "alone_rejudged": 132,
+  "alone_final_run": 132,
+  "brainhigh_final_run": 140,
+  "am_final_run": 140,
+  "amdev_wins": 8,
+  "amdev_losses": 1,
+  "amdev_wrong": 26,
+  "amdev_cannot": 8,
+  "by_difficulty": {
+   "easy": {
+    "n": 43,
+    "amdev": 43,
+    "alone": 43
+   },
+   "medium": {
+    "n": 51,
+    "amdev": 46,
+    "alone": 44
+   },
+   "hard": {
+    "n": 79,
+    "amdev": 50,
+    "alone": 45
+   }
+  },
+  "judge_secs": 168.5,
+  "lowbias_paused": true
+ }
+}

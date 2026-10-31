@@ -1,0 +1,48 @@
+REDACTED COPY: engine names replaced. The sealed sha256 belongs to the unredacted original, which is kept private.
+
+LIVE HEAD-TO-HEAD: MY MODEL (the machine-authored law as core brain, Gemini as the body) AGAINST GEMINI ALONE.
+Protocol written and hashed before any call it covers (2026-10-30).
+
+WHY
+The user: "go run the fix and real ap i left use it live and i need live recording of logs using api my model vs
+gemini alone fairly for presenting". All arms run live now, on the user's own Gemini key, on the same tasks at the
+same moment; every API call and every ruling of the brain is written to a timestamped log as it happens.
+
+THE ARMS (model gemini-3.5-flash-lite in every arm; prompt = the task prompt + arm A's CODE_ASK in every arm)
+- GEMINI ALONE: one call, thinking_level "high", 16,000 tokens (arm A's setting). Its code is submitted as is.
+- MY MODEL: the core brain, brain_mcp.py over MCP (ENGINE_LAW unmodified, LAW sha256 48bf50bff36a2cc9; observe_code;
+  am_solve), rules every act; the same model is the body. As BRAIN_PROTOCOL.txt, with THE FIX:
+  1. The body works at "low" (4,000 tokens) for at most 2 code replies. When the 2nd low reply still fails its
+     examples (REFUTED, NOTWIN or UNREAD), the host adds CAPPED to the observation: the low budget is exhausted
+     (the law's own meaning of CAPPED: "clean input, budget exhausted").
+  2. RAISE_BUDGET, ADD_STATE and AUTHOR_SUCCESSOR widen the body (as the repository's anyform.py does): it answers
+     at "high" (16,000 tokens), at most 2 high replies. Examples the body wrote itself (a prompt with no visible
+     example) are written again at "high" when the budget rises.
+  3. HARVEST_COUNTEREXAMPLE, ADD_MATERIAL and RESHAPE ask again at the current level with what was observed;
+     CHANGE_GRANULARITY asks the body once for 3 example calls from the docstring; SHIP submits.
+  4. At most 4 code replies; after that, no answer.
+- LOW (control): one call, thinking_level "low", 4,000 tokens, submitted as is.
+
+FAIRNESS
+Same model, same prompt text, same output caps per thinking level, same judge, same sandbox. Each task's three arms
+start together (one thread each), so they meet the same API conditions. Tokens and dollars come from each response's
+usage_metadata (thoughts billed as output) at the paid list price ($0.30 in, $2.50 out per million). No earlier result
+is reused: everything is called live.
+
+JUDGE
+As arm A: PASS on the base inputs; the extra inputs reported for passes ("extra held"). Sandbox: no network, no writes.
+
+LIVE RECORDING
+live/live_events.jsonl: every event with its time (task start; every API call with arm, thinking level, tokens in and
+out, dollars, seconds; every brain observation and act; every grade). live/live_summary.json rewritten after every
+task. live/live.html shows both, refreshed every 2 seconds. After the run the whole recording is published as a page
+that replays it.
+
+CALLS
+Exact two-sided sign test on PASS, my model against Gemini alone; output tokens and dollars per task and per pass.
+
+MONEY
+Cap $2.00 for this run (estimate about $0.90). The total stays under the $25 the user approved.
+
+MY PREDICTION
+My model passes at least 158 of 164 with at least 60% fewer output tokens than Gemini alone, which passes at least 160.

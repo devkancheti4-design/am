@@ -1,0 +1,3116 @@
+{
+ "3736": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc398_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3760": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3754": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3720": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc396_e": {
+  "amdev": [
+   "WRONG",
+   26
+  ],
+  "alone": [
+   "WRONG",
+   26
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc396_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc393_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc387_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc395_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc394_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3786": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3799": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc390_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc394_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc390_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc387_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc192_b": {
+  "amdev": [
+   "WRONG",
+   23
+  ],
+  "alone": [
+   "WRONG",
+   23
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc388_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3763": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   17
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc388_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3733": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc192_a": {
+  "amdev": [
+   "WRONG",
+   38
+  ],
+  "alone": [
+   "WRONG",
+   38
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3739": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc195_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc396_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc396_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc195_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3692": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3737": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc400_g": {
+  "amdev": [
+   "WRONG",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3674": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "abc395_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3809": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3789": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3778": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc397_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc394_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc400_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3748": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3764": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3705": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc394_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc395_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3744": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3753": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc193_d": {
+  "amdev": [
+   "WRONG",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc388_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc194_b": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   3
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "abc393_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc196_d": {
+  "amdev": [
+   "WRONG",
+   8
+  ],
+  "alone": [
+   "WRONG",
+   11
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc392_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3751": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc192_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   6
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc195_d": {
+  "amdev": [
+   "WRONG",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc391_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc397_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc397_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc196_b": {
+  "amdev": [
+   "PASS",
+   1
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc390_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc387_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3795": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc391_d": {
+  "amdev": [
+   "WRONG",
+   33
+  ],
+  "alone": [
+   "WRONG",
+   33
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3721": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc388_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc191_c": {
+  "amdev": [
+   "WRONG",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "3725": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3784": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc190_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc388_f": {
+  "amdev": [
+   "WRONG",
+   36
+  ],
+  "alone": [
+   "WRONG",
+   36
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc387_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc196_a": {
+  "amdev": [
+   "WRONG",
+   31
+  ],
+  "alone": [
+   "WRONG",
+   22
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc390_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc388_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3779": {
+  "amdev": [
+   "WRONG",
+   32
+  ],
+  "alone": [
+   "WRONG",
+   32
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc390_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc393_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3788": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc399_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc392_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc400_d": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   17
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "abc397_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3765": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc395_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3723": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3704": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3722": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3817": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3785": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3768": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3771": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3801": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3731": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc391_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc399_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc389_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc194_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   15
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3793": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   32
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc396_g": {
+  "amdev": [
+   "PASS",
+   33
+  ],
+  "alone": [
+   "PASS",
+   33
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3770": {
+  "amdev": [
+   "WRONG",
+   37
+  ],
+  "alone": [
+   "WRONG",
+   37
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "PASS",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "PASS"
+  }
+ },
+ "abc394_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc395_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc397_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc398_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc194_c": {
+  "amdev": [
+   "WRONG",
+   22
+  ],
+  "alone": [
+   "WRONG",
+   24
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc400_e": {
+  "amdev": [
+   "PASS",
+   4
+  ],
+  "alone": [
+   "PASS",
+   4
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc392_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3714": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3791": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc397_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3783": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc398_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc396_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc389_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3687": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc400_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc389_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc398_g": {
+  "amdev": [
+   "WRONG",
+   34
+  ],
+  "alone": [
+   "WRONG",
+   34
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3776": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3777": {
+  "amdev": [
+   "WRONG",
+   34
+  ],
+  "alone": [
+   "WRONG",
+   34
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc391_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc190_c": {
+  "amdev": [
+   "WRONG",
+   34
+  ],
+  "alone": [
+   "WRONG",
+   34
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc399_e": {
+  "amdev": [
+   "WRONG",
+   39
+  ],
+  "alone": [
+   "WRONG",
+   39
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3832": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc392_f": {
+  "amdev": [
+   "WRONG",
+   38
+  ],
+  "alone": [
+   "WRONG",
+   38
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "arc196_c": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   34
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "abc388_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   26
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc195_c": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc399_d": {
+  "amdev": [
+   "PASS",
+   1
+  ],
+  "alone": [
+   "PASS",
+   1
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc394_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc396_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc391_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3805": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc191_d": {
+  "amdev": [
+   "WRONG",
+   33
+  ],
+  "alone": [
+   "WRONG",
+   22
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3697": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc398_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc389_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc399_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc390_a": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc192_e": {
+  "amdev": [
+   "WRONG",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3709": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3794": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3759": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3750": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc390_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc398_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc392_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc393_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3701": {
+  "amdev": [
+   "WRONG",
+   26
+  ],
+  "alone": [
+   "WRONG",
+   26
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "arc194_e": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc399_f": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc400_b": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3708": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc397_d": {
+  "amdev": [
+   "WRONG",
+   39
+  ],
+  "alone": [
+   "WRONG",
+   39
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3747": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc193_a": {
+  "amdev": [
+   "WRONG",
+   29
+  ],
+  "alone": [
+   "WRONG",
+   12
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "3773": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3762": {
+  "amdev": [
+   "WRONG",
+   17
+  ],
+  "alone": [
+   "WRONG",
+   17
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ },
+ "abc392_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc394_c": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc393_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc195_e": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "3811": {
+  "amdev": [
+   "PASS",
+   31
+  ],
+  "alone": [
+   "PASS",
+   31
+  ],
+  "difficulty": "easy",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "arc191_a": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   31
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3677": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3743": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "abc389_d": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "medium",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "arc193_b": {
+  "amdev": [
+   "ABSTAIN",
+   0
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "ABSTAIN",
+   "brainhigh": "ABSTAIN",
+   "am": "ABSTAIN",
+   "low": "WRONG"
+  }
+ },
+ "abc391_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "PASS"
+  }
+ },
+ "3717": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3696": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "PASS",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "3781": {
+  "amdev": [
+   "WRONG",
+   39
+  ],
+  "alone": [
+   "PASS",
+   40
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "PASS",
+   "mymodel": "WRONG",
+   "brainhigh": "PASS",
+   "am": "PASS",
+   "low": "WRONG"
+  }
+ },
+ "abc389_g": {
+  "amdev": [
+   "PASS",
+   40
+  ],
+  "alone": [
+   "WRONG",
+   0
+  ],
+  "difficulty": "hard",
+  "final_run": {
+   "alone": "WRONG",
+   "mymodel": "WRONG",
+   "brainhigh": "WRONG",
+   "am": "WRONG",
+   "low": "WRONG"
+  }
+ }
+}

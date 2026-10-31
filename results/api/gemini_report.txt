@@ -1,0 +1,11 @@
+AM as a tool on the Gemini API: 60 problems (12 traps); paid list prices; computed spend $12.1226
+model                  arm score right wrong CANNOT no ans |   tok in  tok out |  $/problem    $/right | s/prob
+gemini-3.5-flash-lite  A      35    40     5     27      0 |      195     7219 |    0.01811    0.02716 |   19.4
+gemini-3.5-flash-lite  T      41    49     8     15      0 |      393       88 |    0.00034    0.00041 |   31.3
+   AM decides: saves $0.01777 per problem = $17,768 per 1,000,000 problems (53.5x cheaper); accuracy: T better on 11, worse on 6, p = 0.332
+gemini-3.8-flash       A      35    40     5     21      5 |      195    20839 |    0.07829    0.11744 |  159.7
+gemini-3.8-flash       T      41    49     8     15      0 |      393       92 |    0.00064    0.00078 |   32.8
+   AM decides: saves $0.07765 per problem = $77,652 per 1,000,000 problems (122.5x cheaper); accuracy: T better on 11, worse on 6, p = 0.332
+gemini-4-argon         A      36    37     1     28      6 |      223    10249 |    0.10294    0.16692 |  111.6
+gemini-4-argon         T      41    49     8     15      0 |      430       87 |    0.00173    0.00212 |   29.0
+   AM decides: saves $0.10120 per problem = $101,202 per 1,000,000 problems (59.4x cheaper); accuracy: T better on 13, worse on 8, p = 0.383

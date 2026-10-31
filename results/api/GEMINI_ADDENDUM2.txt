@@ -1,0 +1,7 @@
+GEMINI PROTOCOL, ADDENDUM 2: written and hashed before any Gemini 4 Argon call (2026-10-29)
+
+The user approved it in chat ("cap 25") after seeing that Gemini 3.8 Flash on its own spent up to 27,078 tokens on
+one problem. The script spend cap rises from $15.00 to $25.00. Nothing else changes.
+
+The running process keeps its $15 cap. If it stops at the cap, geminitest.py run is started again and resumes the
+problems not yet done, under the $25 cap. Records already made are kept as they are.

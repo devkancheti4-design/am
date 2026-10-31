@@ -1,0 +1,63 @@
+REDACTED COPY: two private paths and an engine name replaced. Its sealed sha256 belongs to the private original.
+
+AM AS THE CORE-REASONING API: how many tokens it saves.
+Protocol written and hashed before any model call (2026-10-29).
+
+QUESTION
+When a language model hands the reasoning to AM (old AM, AM2, or plain search over AM's eyes) instead of reasoning
+in tokens itself, how many tokens does it save, and how does accuracy compare?
+
+PROBLEMS
+- 60 problems from the fresh sealed set (./fresh, truths sha256 ee7c04d8...), drawn with seed 2029:
+  - 30 from fresh_rules (rules and sequences);
+  - 30 from fresh_split (multi-branch rules).
+- Each is rendered to text with the generators' own text functions, copied verbatim.
+- No arm has seen them.
+
+MODEL
+- qwen3.5:4b through Ollama on this Mac (the only Qwen here), seed 0.
+- Tokens are Ollama's own counts: prompt_eval_count (in) and eval_count (out).
+
+ARMS (every arm gets the same 60 texts)
+- A. Qwen alone, thinking on.
+  - Prompt: the original ALONE suffix from reason/duel/body.py.
+  - Sampling: cap 16,384 output tokens, temperature 0.6, top_p 0.95, top_k 20.
+- N. Qwen alone, thinking off.
+  - Prompt: the same ALONE suffix.
+  - Sampling: cap 1,024, temperature 0.
+- B. Qwen as the body, with AM as the core reasoner.
+  - Prompt: the original EXTRACT suffix (copy the data into JSON, do not solve).
+  - Sampling: thinking off, cap 1,024, temperature 0.
+  - The extracted data then goes to three reasoners. Each reasoner uses only the body's data, so an extraction error
+    counts against the arm.
+    - B-AM: old AM (answer for rules and sequences, answer_split for multi-branch).
+    - B-AM2: AM2, a machine-authored law (not in this repository).
+    - B-plain: plain search (B on rules and sequences, S2 on multi-branch).
+
+ANSWER PARSING (fixed now)
+- Robust parser, the primary one:
+  - First, before stripping anything, record every "\boxed{...}".
+  - Strip "*", "$", "\text{", "\boxed{", "}".
+  - Take the last "ANSWER: CANNOT" or "ANSWER: a, b", in any case ("Answer:" counts).
+  - If there is none, take the last \boxed{} that holds CANNOT or two integers.
+  - If there is none, take the last two \boxed{} that each hold one integer.
+  - Otherwise there is no answer.
+- The original strict regex is also reported, for comparison only.
+- With thinking on, only the final message content is parsed, never the thinking.
+
+JUDGE
+- Copied verbatim from splitter/grade_split.py.
+- Score = right - wrong.
+- CANNOT and no-answer score 0. A trap is right only with CANNOT.
+
+REPORTED FOR EVERY ARM
+- Right, wrong, CANNOT, no answer, and score.
+- Tokens per problem (in, out, total) and wall seconds per problem.
+- Tokens per right answer.
+- Savings: arm A total tokens divided by arm B total tokens, and tokens saved per problem.
+- B's reasoner CPU time, reported separately: it is not tokens.
+
+CALLS (fixed now)
+- Token saving: the ratio of A tokens to B tokens, the B tokens being body tokens only, since AM uses none.
+- Accuracy: an exact sign test, B-x against A, on the items where their scores differ. B-x "MATCHES OR BEATS A" if it
+  scores higher on at least as many items (two-sided p reported); otherwise "BELOW A".

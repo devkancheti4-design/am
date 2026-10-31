@@ -14,7 +14,7 @@ rule-finding tasks it answers 50x cheaper than the model alone.**
 - **Rule-finding questions** (number patterns and hidden integer rules, as in aptitude tests and math practice).
   - The model only lays out the data, and AM finds the rule.
   - On 60 sealed problems with three Gemini models it was 53–122x cheaper per problem than the model reasoning alone, at a similar score (41 vs 35–36; the difference is not significant).
-  - Two caveats: AM's own CPU time (about 25 s per problem, in Python) is not in those dollars, and it gave more wrong answers (8 vs 1–5).
+  - Two caveats: AM's own CPU time (about 25 s per problem, in Python) is not in those dollars, and it gave more wrong answers (8 vs 1–5) ([results/api](results/api/)).
 
 **AM** is a core reasoner: given integer examples, it finds the rule behind them and answers new questions, or says
 `CANNOT` when no rule can be determined.  **AM SPLITTER** prepares the problem for it: it decides how to cut the

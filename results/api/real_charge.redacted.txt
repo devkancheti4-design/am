@@ -1,0 +1,7 @@
+GOOGLE'S REAL CHARGE for the Gemini API use, read from the billing page (account and payment details removed).
+
+  2026-10-29 23:25 IST   Gemini API use   1,150.44 INR  (+ 18% Indian GST, the same for both arms)
+  Computed by the harness at list prices: $12.1226.  At about 96.5 INR/USD, 1,150.44 INR is about $11.92, 98% of the
+  computed figure, while costs were still posting.
+  Re-read 2026-10-30 ~07:45 IST, after a second (splitter) test: 1,320.68 INR posted against $14.1856 computed for both
+  tests (about 96.5%); usage can take hours to post.

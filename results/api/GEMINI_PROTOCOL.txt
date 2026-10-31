@@ -1,0 +1,45 @@
+AM AS A TOOL ON THE GEMINI API: real tokens and real money.
+Protocol written and hashed before any Gemini call (2026-10-29).
+It is the same test as API_PROTOCOL.txt plus API_ADDENDUM1.txt (Claude supplies, AM decides), run on Google's models.
+
+PROBLEMS
+The same 60 sealed fresh problems (seed 2029; 30 rules and sequences plus 30 multi-branch; truths sha256 ee7c04d8...).
+Texts are rendered verbatim.
+
+MODELS AND PAID LIST PRICES
+Per million tokens, USD, prompts up to 200k, read from ai.google.dev/gemini-api/docs/pricing on 2026-10-29:
+| model                 | input | output | price note           |
+|-----------------------|-------|--------|----------------------|
+| gemini-3.5-flash-lite | $0.30 | $2.50  |                      |
+| gemini-3.8-flash      | $0.75 | $3.75  | through 2026-12-31   |
+| gemini-4-argon        | $2.00 | $10.00 | through 2026-11-30   |
+- Thinking tokens are billed as output.
+- Paid tier only. Per Google's page, paid-tier content is not used to improve their products.
+
+ARMS (one concrete setting each, the same for every model)
+- A, THE MODEL REASONS BY ITSELF.
+  - Call: client.interactions.create(model, input = problem text + the original ALONE instruction).
+  - Settings: generation_config thinking_level "high", output cap 32,000 tokens.
+  - The answer is read from output_text with the robust parser in PROTOCOL.txt.
+- T, THE MODEL SUPPLIES AND AM DECIDES.
+  - Call: one call, with input = problem text + the supply instruction from API_ADDENDUM1.txt.
+  - Tool: the function am_solve, with the same schema as the Claude test.
+  - Settings: thinking_level "low", output cap 4,000.
+  - The function_call steps are the options. No function result is sent back. Any text the model writes is ignored.
+  - AM runs every option locally, for 0 tokens. If all answering options agree, that is the answer; otherwise the
+    answer is CANNOT.
+
+MONEY
+- Billed tokens come from each response's usage.
+- Billed output = output tokens + thought tokens if the API's total equals input + output + thought; otherwise
+  billed output = output tokens alone (thought already included). The first call decides this and logs it.
+- Dollars = billed tokens x the list price above.
+- After the run, the user reads the AI Studio Spend page. The real charge is reported next to the computed total.
+- Script spend cap: $15.00. No call is made if the spend so far plus that call's worst case would pass it.
+
+REPORTED PER MODEL
+- Right, wrong and CANNOT, and the score.
+- Tokens per problem; dollars per problem; dollars per right answer.
+- Dollars saved per problem and per 1,000,000 problems.
+- The accuracy difference, with an exact sign test on the items where T and A differ.
+- Before the full run, one smoke call per arm on the first problem, to check usage fields and output parsing.

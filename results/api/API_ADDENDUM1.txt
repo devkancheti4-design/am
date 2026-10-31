@@ -1,0 +1,21 @@
+API PROTOCOL, ADDENDUM 1: written and hashed before any API call (2026-10-29)
+
+The user's architecture: Claude only supplies, and AM is the only reasoner. Claude never answers.
+Arm T is replaced by arm T-SUPPLY. Everything else in API_PROTOCOL.txt is unchanged.
+
+ARM T-SUPPLY: CLAUDE SUPPLIES, AM DECIDES
+- One request per problem.
+- Message: the problem text, plus: "Do not solve the task. Lay out its data as am_solve calls: one call, or one per
+  reading if the text can be read more than one way. Do not answer."
+- Tool: am_solve, with the same schema as before, and tool_choice auto.
+- Settings: adaptive thinking (the default), output_config.effort = "low", max_tokens 4,000.
+- No tool result is sent back, and there is no second request. Any text Claude writes is ignored.
+- THE ANSWER:
+  - The tool calls in that one response are the options. AM runs each one locally, for 0 tokens.
+  - If every option AM answers gives the same answer, that answer is returned.
+  - If the answering options disagree, or AM answers none of them, or Claude makes no call, the answer is CANNOT.
+- Tokens and dollars come from that single request's usage.
+- The API response would carry the answer plus the options, so a UI can lay them out.
+
+THE VALUE OF AM, as before, is A against T-SUPPLY: dollars saved per problem and per 1,000,000 problems, cost per
+right answer, and the accuracy difference with its sign test.

@@ -1,0 +1,58 @@
+AM AS A TOOL ON THE CLAUDE API: real tokens and real dollars.
+Protocol written and hashed before any API call (2026-10-29).
+
+QUESTION
+For each current Claude model, what does solving these problems cost when the model reasons by itself, against
+calling AM as a tool? How does accuracy compare?
+
+PROBLEMS
+The same 60 problems as PROTOCOL.txt: seed 2029, 30 rules and sequences plus 30 multi-branch, from the fresh sealed
+set (truths sha256 ee7c04d8...). Texts are rendered verbatim by the generators' text functions.
+
+MODELS AND LIST PRICES (per million tokens; Anthropic first-party API; claude-api skill table cached 2026-10-06)
+| model             | input | output |
+|-------------------|-------|--------|
+| claude-opus-5-5   | $4.00 | $20.00 |
+| claude-sonnet-5-5 | $2.00 | $10.00 |
+| claude-haiku-5-5  | $0.10 | $0.50  |
+Thinking tokens are billed as output and are counted in usage.output_tokens.
+
+SETTINGS (one concrete setting per arm, the same for every model)
+- A. THE MODEL REASONS BY ITSELF.
+  - Message: the problem text plus the original ALONE instruction (reason/duel/body.py).
+  - Settings: adaptive thinking (the default; the thinking parameter is omitted), output_config.effort = "high",
+    max_tokens 32,000, streamed.
+  - No sampling parameters, which these models reject.
+- T. AM AS A TOOL.
+  - Message: the problem text, plus: use the am_solve tool with the task's data exactly as given, then give the
+    final answer on the last line as ANSWER: <first>, <second> or ANSWER: CANNOT.
+  - Tool: one custom tool, am_solve(kind, pairs, queries, terms), with tool_choice auto (forced tool use is rejected
+    on these models).
+  - Settings: adaptive thinking (default), output_config.effort = "low", max_tokens 4,000 per request.
+  - At most 3 requests per problem. Every request's usage is summed.
+  - The tool runs locally for 0 tokens. It is old AM: am.answer(data), and when that says CANNOT on a rule task,
+    am.answer_split(data).
+  - It returns {"answer": [a, b]} or {"answer": "CANNOT"}. Bad input returns {"error": ...}.
+- Neither arm uses fallbacks: a model switch would mix models in one measurement. A refusal counts as no answer and
+  is reported.
+
+MEASURED, FROM EACH RESPONSE'S OWN usage
+- Input and output tokens.
+- Dollars: tokens x list price.
+- Seconds per problem.
+- Tool calls made.
+- AM's CPU seconds.
+
+ACCURACY
+- The answer comes from the robust parser in PROTOCOL.txt, and the judge is the one from splitter/grade_split.py.
+- Score = right - wrong.
+
+THE VALUE OF AM AS A TOOL (per model)
+- Dollars saved per problem: cost of A - cost of T.
+- The same, per 1,000,000 problems.
+- Cost per right answer in each arm.
+- The accuracy difference: an exact sign test, T against A, on the items where their scores differ.
+
+SPEND CAP
+$25.00 in total across all runs. No call is made if the spend so far plus that call's worst case (max_tokens at the
+output price) would pass the cap. Run order: Haiku, Sonnet, Opus; within each model, T before A.

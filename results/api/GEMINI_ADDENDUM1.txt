@@ -1,0 +1,23 @@
+GEMINI PROTOCOL, ADDENDUM 1: written and hashed before any paid Gemini call (2026-10-29)
+
+WHY
+- On an account without paid quota, client.interactions.create hangs: no answer and no error, even with a 60 s
+  request timeout.
+- The classic endpoint (models.generate_content) answers the same refusal in 0.6 s, with HTTP 429 RESOURCE_EXHAUSTED.
+- A refusal partway through a run must fail fast, never freeze the run. So both arms move to the classic endpoint.
+
+WHAT CHANGES
+- The call is client.models.generate_content in both arms, with an HTTP timeout of 900 s and at most 3 attempts.
+- Arm A: thinking_config.thinking_level "high", max_output_tokens 32,000. The answer is read from response.text with
+  the same robust parser.
+- Arm T:
+  - Tool: am_solve, declared through parameters_json_schema with the same schema as before.
+  - Settings: automatic function calling disabled, thinking_level "low", max_output_tokens 4,000.
+  - The options are response.function_calls whose name is am_solve. AM decides exactly as before.
+- Tokens come from usage_metadata:
+  - input = prompt_token_count + tool_use_prompt_token_count;
+  - billed output = candidates_token_count + thoughts_token_count. The SDK documents that thoughts are counted
+    separately from candidates in total_token_count.
+
+WHAT DOES NOT CHANGE
+The models, prices, problems, prompts, AM, the judge, the reported numbers, the sign test, and the $15.00 spend cap.
